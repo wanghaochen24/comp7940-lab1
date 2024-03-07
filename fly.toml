@@ -4,7 +4,7 @@
 #
 
 app = 'chatbotwang'
-primary_region = 'nrt'
+primary_region = 'hkg'
 
  [build]
   builder = 'paketobuildpacks/builder:base'
