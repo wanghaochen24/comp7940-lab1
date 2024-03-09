@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for chatbotwhc on 2024-03-09T18:38:15+08:00
+# fly.toml app configuration file generated for chatbothc on 2024-03-09T20:01:43+08:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'chatbotwhc'
+app = 'chatbothc'
 primary_region = 'hkg'
 
 [build]
@@ -12,7 +12,7 @@ primary_region = 'hkg'
 [env]
   PORT = '8080'
 
- [[services]]
+[[services]]
   internal_port = 8000
   protocol = "tcp"
   [services.concurrency]
@@ -25,6 +25,6 @@ primary_region = 'hkg'
   [[services.ports]]
     handlers = ["tls", "http"]
     port = 443
-  
+
 [[vm]]
   size = 'shared-cpu-1x'
