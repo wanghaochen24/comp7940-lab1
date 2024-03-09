@@ -1,9 +1,9 @@
 name: Fly Deploy
- on:
+on:
   push:
     branches:
       - main    # change to main if needed
- jobs:
+jobs:
   deploy:
     name: Deploy app
     runs-on: ubuntu-latest
