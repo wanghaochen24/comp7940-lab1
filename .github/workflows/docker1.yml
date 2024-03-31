@@ -29,3 +29,4 @@ jobs:
           context: .
           platforms: linux/amd64
           push: true
+          tags: 23452315/test:latest
