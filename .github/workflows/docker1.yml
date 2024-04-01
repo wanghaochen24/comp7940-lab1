@@ -2,7 +2,7 @@ name: Dockerhub Deploy
 on:
   push:
     branches:
-      - main    # change to main if needed
+      - main
 jobs:
   docker:
     runs-on: ubuntu-latest
